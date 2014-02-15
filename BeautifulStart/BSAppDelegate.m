@@ -7,7 +7,7 @@
 //
 
 #import "BSAppDelegate.h"
-
+#import <AFNetworking/AFNetworking.h>
 @implementation BSAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
