@@ -8,12 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		36429F4C3CD945C38223918D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C50E3CB38C364966B1A97199 /* libPods.a */; };
-		8C2D10C418AF2DAB00E1C9A5 /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C2D10C318AF2DAB00E1C9A5 /* RegexKitLite.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		8C2D10C618AF326300E1C9A5 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C2D10C518AF326300E1C9A5 /* libicucore.dylib */; };
 		8C2D10C818AF329200E1C9A5 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C2D10C718AF329200E1C9A5 /* libiconv.dylib */; };
 		8C2D10CA18AF32A400E1C9A5 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C2D10C918AF32A400E1C9A5 /* libz.dylib */; };
 		8C2D10CC18AF32B000E1C9A5 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C2D10CB18AF32B000E1C9A5 /* libsqlite3.dylib */; };
-		8C2D10CF18AF32EC00E1C9A5 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C2D10CE18AF32EC00E1C9A5 /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		8C66F22218AF637000BD5196 /* BSHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C66F22018AF637000BD5196 /* BSHomeViewController.m */; };
 		8C66F22318AF637000BD5196 /* BSHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C66F22118AF637000BD5196 /* BSHomeViewController.xib */; };
 		8C66F22718AF63AD00BD5196 /* BSLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C66F22518AF63AD00BD5196 /* BSLoginViewController.m */; };
@@ -28,13 +26,10 @@
 		8C66F23C18AF645800BD5196 /* BSSearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C66F23A18AF645800BD5196 /* BSSearchViewController.xib */; };
 		8C66F24018AF646A00BD5196 /* BSShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C66F23E18AF646A00BD5196 /* BSShareViewController.m */; };
 		8C66F24118AF646A00BD5196 /* BSShareViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C66F23F18AF646A00BD5196 /* BSShareViewController.xib */; };
-		8C66F25018AF676C00BD5196 /* ModelBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C66F24D18AF676C00BD5196 /* ModelBase.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		8C66F25118AF676C00BD5196 /* ModelList.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C66F24F18AF676C00BD5196 /* ModelList.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		8C66F25418AF679700BD5196 /* Account.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C66F25318AF679700BD5196 /* Account.m */; };
 		8C66F25718AF67A900BD5196 /* home.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C66F25618AF67A900BD5196 /* home.m */; };
 		8C66F25A18AF67BC00BD5196 /* userCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C66F25918AF67BC00BD5196 /* userCenter.m */; };
 		8C66F25D18AF798000BD5196 /* AccountManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C66F25C18AF798000BD5196 /* AccountManager.m */; };
-		8C66F26418AF7A0B00BD5196 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C66F26318AF7A0B00BD5196 /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		8CB8B23718ADC8B00031B387 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CB8B23618ADC8B00031B387 /* Foundation.framework */; };
 		8CB8B23918ADC8B00031B387 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CB8B23818ADC8B00031B387 /* CoreGraphics.framework */; };
 		8CB8B23B18ADC8B00031B387 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CB8B23A18ADC8B00031B387 /* UIKit.framework */; };
@@ -63,16 +58,10 @@
 		8CB8B2B018AE151F0031B387 /* BSNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB8B2AF18AE151F0031B387 /* BSNavigationController.m */; };
 		8CB8B2B618AE164C0031B387 /* KeyChainIDFA.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB8B2B318AE164C0031B387 /* KeyChainIDFA.m */; };
 		8CB8B2B718AE164C0031B387 /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB8B2B518AE164C0031B387 /* KeychainItemWrapper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		8CD0BE3318B1F9EE00DE7D38 /* libiOSShare.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CD0BE2D18B1F9D500DE7D38 /* libiOSShare.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		8C66F56818AF7B1100BD5196 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8C66F56418AF7B1000BD5196 /* iOSShare.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 64B0FE43170BFF5A00440DA2;
-			remoteInfo = iOSShare;
-		};
 		8CB8B25318ADC8B00031B387 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 8CB8B22B18ADC8B00031B387 /* Project object */;
@@ -80,18 +69,28 @@
 			remoteGlobalIDString = 8CB8B23218ADC8B00031B387;
 			remoteInfo = BeautifulStart;
 		};
+		8CD0BE2C18B1F9D500DE7D38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CD0BE2818B1F9D400DE7D38 /* iOSShare.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 64B0FE43170BFF5A00440DA2;
+			remoteInfo = iOSShare;
+		};
+		8CD0BE3018B1F9E400DE7D38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CD0BE2818B1F9D400DE7D38 /* iOSShare.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 64B0FE42170BFF5900440DA2;
+			remoteInfo = iOSShare;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		8C2D10BD18AF165200E1C9A5 /* BSComMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSComMacro.h; sourceTree = "<group>"; };
-		8C2D10C218AF2DAB00E1C9A5 /* RegexKitLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegexKitLite.h; sourceTree = "<group>"; };
-		8C2D10C318AF2DAB00E1C9A5 /* RegexKitLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegexKitLite.m; sourceTree = "<group>"; };
 		8C2D10C518AF326300E1C9A5 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
 		8C2D10C718AF329200E1C9A5 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
 		8C2D10C918AF32A400E1C9A5 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		8C2D10CB18AF32B000E1C9A5 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
-		8C2D10CD18AF32EC00E1C9A5 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
-		8C2D10CE18AF32EC00E1C9A5 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		8C66F21F18AF637000BD5196 /* BSHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSHomeViewController.h; sourceTree = "<group>"; };
 		8C66F22018AF637000BD5196 /* BSHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSHomeViewController.m; sourceTree = "<group>"; };
 		8C66F22118AF637000BD5196 /* BSHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSHomeViewController.xib; sourceTree = "<group>"; };
@@ -113,10 +112,6 @@
 		8C66F23D18AF646A00BD5196 /* BSShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSShareViewController.h; sourceTree = "<group>"; };
 		8C66F23E18AF646A00BD5196 /* BSShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSShareViewController.m; sourceTree = "<group>"; };
 		8C66F23F18AF646A00BD5196 /* BSShareViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSShareViewController.xib; sourceTree = "<group>"; };
-		8C66F24C18AF676C00BD5196 /* ModelBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelBase.h; sourceTree = "<group>"; };
-		8C66F24D18AF676C00BD5196 /* ModelBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelBase.m; sourceTree = "<group>"; };
-		8C66F24E18AF676C00BD5196 /* ModelList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelList.h; sourceTree = "<group>"; };
-		8C66F24F18AF676C00BD5196 /* ModelList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelList.m; sourceTree = "<group>"; };
 		8C66F25218AF679700BD5196 /* Account.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Account.h; sourceTree = "<group>"; };
 		8C66F25318AF679700BD5196 /* Account.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Account.m; sourceTree = "<group>"; };
 		8C66F25518AF67A900BD5196 /* home.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = home.h; sourceTree = "<group>"; };
@@ -125,9 +120,6 @@
 		8C66F25918AF67BC00BD5196 /* userCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = userCenter.m; sourceTree = "<group>"; };
 		8C66F25B18AF798000BD5196 /* AccountManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountManager.h; sourceTree = "<group>"; };
 		8C66F25C18AF798000BD5196 /* AccountManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountManager.m; sourceTree = "<group>"; };
-		8C66F26218AF7A0B00BD5196 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
-		8C66F26318AF7A0B00BD5196 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
-		8C66F56418AF7B1000BD5196 /* iOSShare.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = iOSShare.xcodeproj; path = iOSShare/iOSShare.xcodeproj; sourceTree = "<group>"; };
 		8CB8B23318ADC8B00031B387 /* BeautifulStart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeautifulStart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CB8B23618ADC8B00031B387 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8CB8B23818ADC8B00031B387 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -170,6 +162,7 @@
 		8CB8B2B318AE164C0031B387 /* KeyChainIDFA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyChainIDFA.m; sourceTree = "<group>"; };
 		8CB8B2B418AE164C0031B387 /* KeychainItemWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainItemWrapper.h; sourceTree = "<group>"; };
 		8CB8B2B518AE164C0031B387 /* KeychainItemWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainItemWrapper.m; sourceTree = "<group>"; };
+		8CD0BE2818B1F9D400DE7D38 /* iOSShare.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = iOSShare.xcodeproj; path = iOSShare/iOSShare.xcodeproj; sourceTree = "<group>"; };
 		C50E3CB38C364966B1A97199 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5F126179A1C40DEA0D3A758 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -179,6 +172,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CD0BE3318B1F9EE00DE7D38 /* libiOSShare.a in Frameworks */,
 				8C2D10CC18AF32B000E1C9A5 /* libsqlite3.dylib in Frameworks */,
 				8C2D10CA18AF32A400E1C9A5 /* libz.dylib in Frameworks */,
 				8C2D10C818AF329200E1C9A5 /* libiconv.dylib in Frameworks */,
@@ -283,10 +277,6 @@
 		8C66F24818AF671200BD5196 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				8C66F24C18AF676C00BD5196 /* ModelBase.h */,
-				8C66F24D18AF676C00BD5196 /* ModelBase.m */,
-				8C66F24E18AF676C00BD5196 /* ModelList.h */,
-				8C66F24F18AF676C00BD5196 /* ModelList.m */,
 				8C66F24918AF671200BD5196 /* AccountModel */,
 				8C66F24A18AF671200BD5196 /* HomeModel */,
 				8C66F24B18AF671200BD5196 /* UserCenterModel */,
@@ -324,18 +314,8 @@
 		8C66F26118AF7A0B00BD5196 /* JSONKit */ = {
 			isa = PBXGroup;
 			children = (
-				8C66F26218AF7A0B00BD5196 /* JSONKit.h */,
-				8C66F26318AF7A0B00BD5196 /* JSONKit.m */,
 			);
 			path = JSONKit;
-			sourceTree = "<group>";
-		};
-		8C66F56518AF7B1000BD5196 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				8C66F56918AF7B1100BD5196 /* libiOSShare.a */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		8CB8B22A18ADC8B00031B387 = {
@@ -361,7 +341,7 @@
 		8CB8B23518ADC8B00031B387 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8C66F56418AF7B1000BD5196 /* iOSShare.xcodeproj */,
+				8CD0BE2818B1F9D400DE7D38 /* iOSShare.xcodeproj */,
 				8C2D10CB18AF32B000E1C9A5 /* libsqlite3.dylib */,
 				8C2D10C918AF32A400E1C9A5 /* libz.dylib */,
 				8C2D10C718AF329200E1C9A5 /* libiconv.dylib */,
@@ -528,8 +508,6 @@
 		8CB8B27318ADF2580031B387 /* NetWork */ = {
 			isa = PBXGroup;
 			children = (
-				8C2D10CD18AF32EC00E1C9A5 /* Reachability.h */,
-				8C2D10CE18AF32EC00E1C9A5 /* Reachability.m */,
 			);
 			path = NetWork;
 			sourceTree = "<group>";
@@ -597,8 +575,6 @@
 		8CB8B29118AE0F250031B387 /* RegexKitLite */ = {
 			isa = PBXGroup;
 			children = (
-				8C2D10C218AF2DAB00E1C9A5 /* RegexKitLite.h */,
-				8C2D10C318AF2DAB00E1C9A5 /* RegexKitLite.m */,
 			);
 			path = RegexKitLite;
 			sourceTree = "<group>";
@@ -635,6 +611,14 @@
 			path = KeychainItemWrapper;
 			sourceTree = "<group>";
 		};
+		8CD0BE2918B1F9D400DE7D38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CD0BE2D18B1F9D500DE7D38 /* libiOSShare.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -651,6 +635,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				8CD0BE3118B1F9E400DE7D38 /* PBXTargetDependency */,
 			);
 			name = BeautifulStart;
 			productName = BeautifulStart;
@@ -703,8 +688,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 8C66F56518AF7B1000BD5196 /* Products */;
-					ProjectRef = 8C66F56418AF7B1000BD5196 /* iOSShare.xcodeproj */;
+					ProductGroup = 8CD0BE2918B1F9D400DE7D38 /* Products */;
+					ProjectRef = 8CD0BE2818B1F9D400DE7D38 /* iOSShare.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -716,11 +701,11 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		8C66F56918AF7B1100BD5196 /* libiOSShare.a */ = {
+		8CD0BE2D18B1F9D500DE7D38 /* libiOSShare.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libiOSShare.a;
-			remoteRef = 8C66F56818AF7B1100BD5196 /* PBXContainerItemProxy */;
+			remoteRef = 8CD0BE2C18B1F9D500DE7D38 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -798,7 +783,6 @@
 			files = (
 				8C66F22218AF637000BD5196 /* BSHomeViewController.m in Sources */,
 				8C66F24018AF646A00BD5196 /* BSShareViewController.m in Sources */,
-				8C2D10CF18AF32EC00E1C9A5 /* Reachability.m in Sources */,
 				8CB8B2B718AE164C0031B387 /* KeychainItemWrapper.m in Sources */,
 				8CB8B29F18AE0F250031B387 /* JSONTool.m in Sources */,
 				8CB8B2B018AE151F0031B387 /* BSNavigationController.m in Sources */,
@@ -809,20 +793,16 @@
 				8C66F22718AF63AD00BD5196 /* BSLoginViewController.m in Sources */,
 				8C66F25718AF67A900BD5196 /* home.m in Sources */,
 				8CB8B2B618AE164C0031B387 /* KeyChainIDFA.m in Sources */,
-				8C2D10C418AF2DAB00E1C9A5 /* RegexKitLite.m in Sources */,
 				8C66F23B18AF645800BD5196 /* BSSearchViewController.m in Sources */,
 				8CB8B2A218AE0F250031B387 /* MD5Tool.m in Sources */,
 				8C66F23118AF642B00BD5196 /* BSGoodsViewController.m in Sources */,
 				8CB8B2A118AE0F250031B387 /* DESTools.m in Sources */,
 				8CB8B2AD18AE14ED0031B387 /* BSViewController.m in Sources */,
 				8C66F25418AF679700BD5196 /* Account.m in Sources */,
-				8C66F26418AF7A0B00BD5196 /* JSONKit.m in Sources */,
 				8CB8B2A018AE0F250031B387 /* Base64Tool.m in Sources */,
-				8C66F25018AF676C00BD5196 /* ModelBase.m in Sources */,
 				8CB8B24718ADC8B00031B387 /* BSAppDelegate.m in Sources */,
 				8C66F23618AF644000BD5196 /* BSQuestionListViewController.m in Sources */,
 				8C66F25A18AF67BC00BD5196 /* userCenter.m in Sources */,
-				8C66F25118AF676C00BD5196 /* ModelList.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -841,6 +821,11 @@
 			isa = PBXTargetDependency;
 			target = 8CB8B23218ADC8B00031B387 /* BeautifulStart */;
 			targetProxy = 8CB8B25318ADC8B00031B387 /* PBXContainerItemProxy */;
+		};
+		8CD0BE3118B1F9E400DE7D38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = iOSShare;
+			targetProxy = 8CD0BE3018B1F9E400DE7D38 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -942,8 +927,24 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SRCROOT)/iOSShare\"",
+					"\"${PODS_ROOT}\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BeautifulStart/BeautifulStart-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/iOSShare\"/**",
+					"\"${PODS_ROOT}/Headers\"",
+					"\"${PODS_ROOT}/Headers/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/EGOTableViewPullRefresh\"",
+					"\"${PODS_ROOT}/Headers/MBProgressHUD\"",
+					"\"${PODS_ROOT}/Headers/SDWebImage\"",
+					"\"${PODS_ROOT}/Headers/SDWebImage-ProgressView\"",
+					"\"${PODS_ROOT}/Headers/SFHFKeychainUtils\"",
+					"\"${PODS_ROOT}/Headers/UAAppReviewManager\"",
+					"\"${PODS_ROOT}/Headers/UIActivityIndicator-for-SDWebImage\"",
+				);
 				INFOPLIST_FILE = "BeautifulStart/BeautifulStart-Info.plist";
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -975,8 +976,24 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SRCROOT)/iOSShare\"",
+					"\"${PODS_ROOT}\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BeautifulStart/BeautifulStart-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/iOSShare\"/**",
+					"\"${PODS_ROOT}/Headers\"",
+					"\"${PODS_ROOT}/Headers/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/EGOTableViewPullRefresh\"",
+					"\"${PODS_ROOT}/Headers/MBProgressHUD\"",
+					"\"${PODS_ROOT}/Headers/SDWebImage\"",
+					"\"${PODS_ROOT}/Headers/SDWebImage-ProgressView\"",
+					"\"${PODS_ROOT}/Headers/SFHFKeychainUtils\"",
+					"\"${PODS_ROOT}/Headers/UAAppReviewManager\"",
+					"\"${PODS_ROOT}/Headers/UIActivityIndicator-for-SDWebImage\"",
+				);
 				INFOPLIST_FILE = "BeautifulStart/BeautifulStart-Info.plist";
 				OTHER_LDFLAGS = (
 					"-ObjC",

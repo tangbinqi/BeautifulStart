@@ -5,9 +5,9 @@
 //  Created by tangbinqi on 13-11-14.
 //  Copyright (c) 2013年 tangbinqi. All rights reserved.
 //
-
 #import "BSAppDelegate.h"
-#import <AFNetworking/AFNetworking.h>
+#import "ModelBase.h"
+
 @implementation BSAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -16,6 +16,7 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    ModelBase *de = [[ModelBase alloc] init];
     return YES;
 }
 

@@ -39,10 +39,10 @@
 		64B0FE47170BFF5A00440DA2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64B0FE46170BFF5A00440DA2 /* Foundation.framework */; };
 		64B0FE4C170BFF5A00440DA2 /* iOSShare.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 64B0FE4B170BFF5A00440DA2 /* iOSShare.h */; };
 		64B0FEB0170BFFA000440DA2 /* CMPopTipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B0FE56170BFFA000440DA2 /* CMPopTipView.m */; };
-		64B0FEB1170BFFA000440DA2 /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B0FE59170BFFA000440DA2 /* DDAbstractDatabaseLogger.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		64B0FEB1170BFFA000440DA2 /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B0FE59170BFFA000440DA2 /* DDAbstractDatabaseLogger.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		64B0FEB2170BFFA000440DA2 /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B0FE5B170BFFA000440DA2 /* DDASLLogger.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		64B0FEB3170BFFA000440DA2 /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B0FE5D170BFFA000440DA2 /* DDFileLogger.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
-		64B0FEB4170BFFA000440DA2 /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B0FE5F170BFFA000440DA2 /* DDLog.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		64B0FEB4170BFFA000440DA2 /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B0FE5F170BFFA000440DA2 /* DDLog.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		64B0FEB5170BFFA000440DA2 /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B0FE61170BFFA000440DA2 /* DDTTYLogger.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		64B0FEB6170BFFA000440DA2 /* ContextFilterLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B0FE64170BFFA000440DA2 /* ContextFilterLogFormatter.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		64B0FEB7170BFFA000440DA2 /* DispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B0FE66170BFFA000440DA2 /* DispatchQueueLogFormatter.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
@@ -90,18 +90,16 @@
 		64B0FEEF170C03C500440DA2 /* UIView+Extension.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 64B0FEAC170BFFA000440DA2 /* UIView+Extension.h */; };
 		64B9E7C317840E81006CD4C6 /* UIGestureRecognizer+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B9E7C217840E81006CD4C6 /* UIGestureRecognizer+Extension.m */; };
 		64B9E7C417840EF6006CD4C6 /* UIGestureRecognizer+Extension.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 64B9E7C117840E81006CD4C6 /* UIGestureRecognizer+Extension.h */; };
-		64C1FDB217180E7C00E9B6D4 /* ModelBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C1FDAC17180E7C00E9B6D4 /* ModelBase.m */; };
 		64C1FDB317180E7C00E9B6D4 /* DBConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C1FDAF17180E7C00E9B6D4 /* DBConnection.m */; };
 		64C1FDB417180E7C00E9B6D4 /* Statement.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C1FDB117180E7C00E9B6D4 /* Statement.m */; };
-		64C1FDB517180E9C00E9B6D4 /* ModelBase.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 64C1FDAB17180E7C00E9B6D4 /* ModelBase.h */; };
 		64C1FDB617180E9C00E9B6D4 /* DBConnection.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 64C1FDAE17180E7C00E9B6D4 /* DBConnection.h */; };
 		64C1FDB717180E9C00E9B6D4 /* Statement.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 64C1FDB017180E7C00E9B6D4 /* Statement.h */; };
-		64C1FDBA17180EDA00E9B6D4 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C1FDB917180EDA00E9B6D4 /* JSONKit.m */; };
-		64C1FDBD17180FC700E9B6D4 /* JSONKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 64C1FDB817180EDA00E9B6D4 /* JSONKit.h */; };
 		64D7CCB11776F39F0011A698 /* CLLocation+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D7CCB01776F39F0011A698 /* CLLocation+Extension.m */; };
 		64D7CCB41776F75A0011A698 /* CLLocation+Extension.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 64D7CCAF1776F39F0011A698 /* CLLocation+Extension.h */; };
 		64E37B74175DD0C600E48AE1 /* ModelList.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E37B73175DD0C600E48AE1 /* ModelList.m */; };
 		64E37B78175DD7A200E48AE1 /* ModelList.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 64E37B72175DD0C600E48AE1 /* ModelList.h */; };
+		8CD0BE1518B1DE0000DE7D38 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD0BE1218B1DE0000DE7D38 /* JSONKit.m */; };
+		8CE43BA518B210590047DAA7 /* ModelBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE43BA418B210590047DAA7 /* ModelBase.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -131,8 +129,6 @@
 				6490047F1738B5A500942727 /* ProtocolHelper.h in CopyFiles */,
 				649004801738B5A500942727 /* UIDevice+Extension.h in CopyFiles */,
 				6493688B172110F30008573B /* NSURL+Extension.h in CopyFiles */,
-				64C1FDBD17180FC700E9B6D4 /* JSONKit.h in CopyFiles */,
-				64C1FDB517180E9C00E9B6D4 /* ModelBase.h in CopyFiles */,
 				64C1FDB617180E9C00E9B6D4 /* DBConnection.h in CopyFiles */,
 				64C1FDB717180E9C00E9B6D4 /* Statement.h in CopyFiles */,
 				64B0FEDA170C03C500440DA2 /* CMPopTipView.h in CopyFiles */,
@@ -258,19 +254,19 @@
 		64B0FEAF170BFFA000440DA2 /* UIViewController+KNSemiModal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+KNSemiModal.m"; sourceTree = "<group>"; };
 		64B9E7C117840E81006CD4C6 /* UIGestureRecognizer+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer+Extension.h"; sourceTree = "<group>"; };
 		64B9E7C217840E81006CD4C6 /* UIGestureRecognizer+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+Extension.m"; sourceTree = "<group>"; };
-		64C1FDAB17180E7C00E9B6D4 /* ModelBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelBase.h; sourceTree = "<group>"; };
-		64C1FDAC17180E7C00E9B6D4 /* ModelBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelBase.m; sourceTree = "<group>"; };
 		64C1FDAE17180E7C00E9B6D4 /* DBConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBConnection.h; sourceTree = "<group>"; };
 		64C1FDAF17180E7C00E9B6D4 /* DBConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBConnection.m; sourceTree = "<group>"; };
 		64C1FDB017180E7C00E9B6D4 /* Statement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Statement.h; sourceTree = "<group>"; };
 		64C1FDB117180E7C00E9B6D4 /* Statement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Statement.m; sourceTree = "<group>"; };
-		64C1FDB817180EDA00E9B6D4 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
-		64C1FDB917180EDA00E9B6D4 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
 		64D7CCAF1776F39F0011A698 /* CLLocation+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CLLocation+Extension.h"; sourceTree = "<group>"; };
 		64D7CCB01776F39F0011A698 /* CLLocation+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CLLocation+Extension.m"; sourceTree = "<group>"; };
 		64D7CCB21776F6850011A698 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		64E37B72175DD0C600E48AE1 /* ModelList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelList.h; sourceTree = "<group>"; };
 		64E37B73175DD0C600E48AE1 /* ModelList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelList.m; sourceTree = "<group>"; };
+		8CD0BE1118B1DE0000DE7D38 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		8CD0BE1218B1DE0000DE7D38 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		8CE43BA318B210590047DAA7 /* ModelBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelBase.h; sourceTree = "<group>"; };
+		8CE43BA418B210590047DAA7 /* ModelBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelBase.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -480,13 +476,13 @@
 		64C1FDAA17180E7C00E9B6D4 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				64C1FDB817180EDA00E9B6D4 /* JSONKit.h */,
-				64C1FDB917180EDA00E9B6D4 /* JSONKit.m */,
-				64C1FDAB17180E7C00E9B6D4 /* ModelBase.h */,
-				64C1FDAC17180E7C00E9B6D4 /* ModelBase.m */,
-				64C1FDAD17180E7C00E9B6D4 /* Sqlite */,
+				8CE43BA318B210590047DAA7 /* ModelBase.h */,
+				8CE43BA418B210590047DAA7 /* ModelBase.m */,
+				8CD0BE1118B1DE0000DE7D38 /* JSONKit.h */,
+				8CD0BE1218B1DE0000DE7D38 /* JSONKit.m */,
 				64E37B72175DD0C600E48AE1 /* ModelList.h */,
 				64E37B73175DD0C600E48AE1 /* ModelList.m */,
+				64C1FDAD17180E7C00E9B6D4 /* Sqlite */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -575,16 +571,15 @@
 				64B0FEC7170BFFA000440DA2 /* STTweetLabel.m in Sources */,
 				64B0FEC8170BFFA000440DA2 /* UIBarButtonItem+Extension.m in Sources */,
 				64B0FEC9170BFFA000440DA2 /* UIButton+Extension.m in Sources */,
+				8CD0BE1518B1DE0000DE7D38 /* JSONKit.m in Sources */,
 				64B0FECA170BFFA000440DA2 /* UIColor+Extension.m in Sources */,
 				64B0FECB170BFFA000440DA2 /* UIFont+Extension.m in Sources */,
 				64B0FECC170BFFA000440DA2 /* UIImage+Extension.m in Sources */,
 				64B0FED0170BFFA000440DA2 /* UILabel+Extension.m in Sources */,
 				64B0FED1170BFFA000440DA2 /* UIView+Extension.m in Sources */,
 				64B0FED2170BFFA000440DA2 /* UIViewController+KNSemiModal.m in Sources */,
-				64C1FDB217180E7C00E9B6D4 /* ModelBase.m in Sources */,
 				64C1FDB317180E7C00E9B6D4 /* DBConnection.m in Sources */,
 				64C1FDB417180E7C00E9B6D4 /* Statement.m in Sources */,
-				64C1FDBA17180EDA00E9B6D4 /* JSONKit.m in Sources */,
 				6493688A17210F1D0008573B /* NSURL+Extension.m in Sources */,
 				64900433173896C700942727 /* ProtocolHelper.m in Sources */,
 				6490044B1738976600942727 /* ASIAuthenticationDialog.m in Sources */,
@@ -594,6 +589,7 @@
 				6490044F1738976600942727 /* ASIFormDataRequest.m in Sources */,
 				649004501738976600942727 /* ASIHTTPRequest.m in Sources */,
 				649004511738976600942727 /* ASIInputStream.m in Sources */,
+				8CE43BA518B210590047DAA7 /* ModelBase.m in Sources */,
 				649004521738976600942727 /* ASINetworkQueue.m in Sources */,
 				649004531738976600942727 /* Reachability.m in Sources */,
 				6490047C1738B36400942727 /* UIDevice+Extension.m in Sources */,
@@ -629,7 +625,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -651,7 +647,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
