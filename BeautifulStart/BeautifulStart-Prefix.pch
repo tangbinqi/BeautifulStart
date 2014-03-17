@@ -14,5 +14,6 @@
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
     #import "BSComMacro.h"
+    #import "BSComHeader.h"
     #import <iOSShare/iOSShare.h>
 #endif

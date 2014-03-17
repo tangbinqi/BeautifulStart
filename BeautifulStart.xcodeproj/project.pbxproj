@@ -58,7 +58,9 @@
 		8CB8B2B018AE151F0031B387 /* BSNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB8B2AF18AE151F0031B387 /* BSNavigationController.m */; };
 		8CB8B2B618AE164C0031B387 /* KeyChainIDFA.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB8B2B318AE164C0031B387 /* KeyChainIDFA.m */; };
 		8CB8B2B718AE164C0031B387 /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB8B2B518AE164C0031B387 /* KeychainItemWrapper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		8CD0BE3318B1F9EE00DE7D38 /* libiOSShare.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CD0BE2D18B1F9D500DE7D38 /* libiOSShare.a */; };
+		8CD16A7918B448E10012C8DC /* libiOSShare.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CD16A7418B448C70012C8DC /* libiOSShare.a */; };
+		8CD16A7F18B457E00012C8DC /* Device.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD16A7D18B457E00012C8DC /* Device.m */; };
+		8CD16A8518B4602D0012C8DC /* BS_dapter_iOS7.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD16A8418B4602D0012C8DC /* BS_dapter_iOS7.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,18 +71,25 @@
 			remoteGlobalIDString = 8CB8B23218ADC8B00031B387;
 			remoteInfo = BeautifulStart;
 		};
-		8CD0BE2C18B1F9D500DE7D38 /* PBXContainerItemProxy */ = {
+		8CD16A7318B448C70012C8DC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 8CD0BE2818B1F9D400DE7D38 /* iOSShare.xcodeproj */;
+			containerPortal = 8CD16A6E18B448C60012C8DC /* iOSShare.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 64B0FE43170BFF5A00440DA2;
+			remoteGlobalIDString = 8CAC37BB18B2FA6300737F24;
 			remoteInfo = iOSShare;
 		};
-		8CD0BE3018B1F9E400DE7D38 /* PBXContainerItemProxy */ = {
+		8CD16A7518B448C70012C8DC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 8CD0BE2818B1F9D400DE7D38 /* iOSShare.xcodeproj */;
+			containerPortal = 8CD16A6E18B448C60012C8DC /* iOSShare.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8CAC37CB18B2FA6300737F24;
+			remoteInfo = iOSShareTests;
+		};
+		8CD16A7718B448D80012C8DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CD16A6E18B448C60012C8DC /* iOSShare.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = 64B0FE42170BFF5900440DA2;
+			remoteGlobalIDString = 8CAC37BA18B2FA6300737F24;
 			remoteInfo = iOSShare;
 		};
 /* End PBXContainerItemProxy section */
@@ -137,7 +146,6 @@
 		8CB8B25918ADC8B00031B387 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8CB8B25B18ADC8B00031B387 /* BeautifulStartTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeautifulStartTests.m; sourceTree = "<group>"; };
 		8CB8B26618ADF2580031B387 /* Beijing, China.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Beijing, China.gpx"; sourceTree = "<group>"; };
-		8CB8B27118ADF2580031B387 /* adapter_iOS7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = adapter_iOS7.h; sourceTree = "<group>"; };
 		8CB8B28318ADF9DB0031B387 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		8CB8B28618AE0F250031B387 /* JSONTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONTool.h; sourceTree = "<group>"; };
 		8CB8B28718AE0F250031B387 /* JSONTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONTool.m; sourceTree = "<group>"; };
@@ -162,7 +170,13 @@
 		8CB8B2B318AE164C0031B387 /* KeyChainIDFA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyChainIDFA.m; sourceTree = "<group>"; };
 		8CB8B2B418AE164C0031B387 /* KeychainItemWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainItemWrapper.h; sourceTree = "<group>"; };
 		8CB8B2B518AE164C0031B387 /* KeychainItemWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainItemWrapper.m; sourceTree = "<group>"; };
-		8CD0BE2818B1F9D400DE7D38 /* iOSShare.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = iOSShare.xcodeproj; path = iOSShare/iOSShare.xcodeproj; sourceTree = "<group>"; };
+		8CD16A6E18B448C60012C8DC /* iOSShare.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = iOSShare.xcodeproj; path = iOSShare_iOS7/iOSShare.xcodeproj; sourceTree = "<group>"; };
+		8CD16A7D18B457E00012C8DC /* Device.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Device.m; sourceTree = "<group>"; };
+		8CD16A7E18B457E00012C8DC /* Device.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Device.h; sourceTree = "<group>"; };
+		8CD16A8018B45D950012C8DC /* BSGlobalVariable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSGlobalVariable.h; sourceTree = "<group>"; };
+		8CD16A8318B4602D0012C8DC /* BS_dapter_iOS7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BS_dapter_iOS7.h; sourceTree = "<group>"; };
+		8CD16A8418B4602D0012C8DC /* BS_dapter_iOS7.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BS_dapter_iOS7.m; sourceTree = "<group>"; };
+		8CD16A8618B461500012C8DC /* BSComHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSComHeader.h; sourceTree = "<group>"; };
 		C50E3CB38C364966B1A97199 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5F126179A1C40DEA0D3A758 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -172,7 +186,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CD0BE3318B1F9EE00DE7D38 /* libiOSShare.a in Frameworks */,
+				8CD16A7918B448E10012C8DC /* libiOSShare.a in Frameworks */,
 				8C2D10CC18AF32B000E1C9A5 /* libsqlite3.dylib in Frameworks */,
 				8C2D10CA18AF32A400E1C9A5 /* libz.dylib in Frameworks */,
 				8C2D10C818AF329200E1C9A5 /* libiconv.dylib in Frameworks */,
@@ -341,7 +355,7 @@
 		8CB8B23518ADC8B00031B387 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8CD0BE2818B1F9D400DE7D38 /* iOSShare.xcodeproj */,
+				8CD16A6E18B448C60012C8DC /* iOSShare.xcodeproj */,
 				8C2D10CB18AF32B000E1C9A5 /* libsqlite3.dylib */,
 				8C2D10C918AF32A400E1C9A5 /* libz.dylib */,
 				8C2D10C718AF329200E1C9A5 /* libiconv.dylib */,
@@ -473,6 +487,8 @@
 				8CB8B27018ADF2580031B387 /* adapter_iOS7 */,
 				8CB8B27318ADF2580031B387 /* NetWork */,
 				8CB8B27418ADF2580031B387 /* ThirdControls */,
+				8CD16A8018B45D950012C8DC /* BSGlobalVariable.h */,
+				8CD16A8618B461500012C8DC /* BSComHeader.h */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -489,7 +505,8 @@
 		8CB8B27018ADF2580031B387 /* adapter_iOS7 */ = {
 			isa = PBXGroup;
 			children = (
-				8CB8B27118ADF2580031B387 /* adapter_iOS7.h */,
+				8CD16A8318B4602D0012C8DC /* BS_dapter_iOS7.h */,
+				8CD16A8418B4602D0012C8DC /* BS_dapter_iOS7.m */,
 			);
 			path = adapter_iOS7;
 			sourceTree = "<group>";
@@ -582,6 +599,8 @@
 		8CB8B29418AE0F250031B387 /* Device */ = {
 			isa = PBXGroup;
 			children = (
+				8CD16A7E18B457E00012C8DC /* Device.h */,
+				8CD16A7D18B457E00012C8DC /* Device.m */,
 			);
 			path = Device;
 			sourceTree = "<group>";
@@ -611,10 +630,11 @@
 			path = KeychainItemWrapper;
 			sourceTree = "<group>";
 		};
-		8CD0BE2918B1F9D400DE7D38 /* Products */ = {
+		8CD16A6F18B448C60012C8DC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8CD0BE2D18B1F9D500DE7D38 /* libiOSShare.a */,
+				8CD16A7418B448C70012C8DC /* libiOSShare.a */,
+				8CD16A7618B448C70012C8DC /* iOSShareTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -635,7 +655,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				8CD0BE3118B1F9E400DE7D38 /* PBXTargetDependency */,
+				8CD16A7818B448D80012C8DC /* PBXTargetDependency */,
 			);
 			name = BeautifulStart;
 			productName = BeautifulStart;
@@ -688,8 +708,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 8CD0BE2918B1F9D400DE7D38 /* Products */;
-					ProjectRef = 8CD0BE2818B1F9D400DE7D38 /* iOSShare.xcodeproj */;
+					ProductGroup = 8CD16A6F18B448C60012C8DC /* Products */;
+					ProjectRef = 8CD16A6E18B448C60012C8DC /* iOSShare.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -701,11 +721,18 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		8CD0BE2D18B1F9D500DE7D38 /* libiOSShare.a */ = {
+		8CD16A7418B448C70012C8DC /* libiOSShare.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libiOSShare.a;
-			remoteRef = 8CD0BE2C18B1F9D500DE7D38 /* PBXContainerItemProxy */;
+			remoteRef = 8CD16A7318B448C70012C8DC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8CD16A7618B448C70012C8DC /* iOSShareTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = iOSShareTests.xctest;
+			remoteRef = 8CD16A7518B448C70012C8DC /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -781,6 +808,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CD16A7F18B457E00012C8DC /* Device.m in Sources */,
 				8C66F22218AF637000BD5196 /* BSHomeViewController.m in Sources */,
 				8C66F24018AF646A00BD5196 /* BSShareViewController.m in Sources */,
 				8CB8B2B718AE164C0031B387 /* KeychainItemWrapper.m in Sources */,
@@ -796,6 +824,7 @@
 				8C66F23B18AF645800BD5196 /* BSSearchViewController.m in Sources */,
 				8CB8B2A218AE0F250031B387 /* MD5Tool.m in Sources */,
 				8C66F23118AF642B00BD5196 /* BSGoodsViewController.m in Sources */,
+				8CD16A8518B4602D0012C8DC /* BS_dapter_iOS7.m in Sources */,
 				8CB8B2A118AE0F250031B387 /* DESTools.m in Sources */,
 				8CB8B2AD18AE14ED0031B387 /* BSViewController.m in Sources */,
 				8C66F25418AF679700BD5196 /* Account.m in Sources */,
@@ -822,10 +851,10 @@
 			target = 8CB8B23218ADC8B00031B387 /* BeautifulStart */;
 			targetProxy = 8CB8B25318ADC8B00031B387 /* PBXContainerItemProxy */;
 		};
-		8CD0BE3118B1F9E400DE7D38 /* PBXTargetDependency */ = {
+		8CD16A7818B448D80012C8DC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = iOSShare;
-			targetProxy = 8CD0BE3018B1F9E400DE7D38 /* PBXContainerItemProxy */;
+			targetProxy = 8CD16A7718B448D80012C8DC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

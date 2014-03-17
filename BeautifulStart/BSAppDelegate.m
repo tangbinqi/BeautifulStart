@@ -6,7 +6,8 @@
 //  Copyright (c) 2013年 tangbinqi. All rights reserved.
 //
 #import "BSAppDelegate.h"
-#import "ModelBase.h"
+//#import "ModelBase.h"
+#import <iOSShare/ModelBase.h>
 
 @implementation BSAppDelegate
 

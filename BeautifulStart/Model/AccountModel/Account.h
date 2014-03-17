@@ -6,7 +6,7 @@
 //  Copyright (c) 2014年 tangbinqi. All rights reserved.
 //
 
-#import "ModelBase.h"
+//#import <iOSShare/ModelBase.h>
 
 @interface Account : ModelBase
 
