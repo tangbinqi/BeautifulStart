@@ -35,13 +35,13 @@
 {
     UIExpandingTextView *textView;
     UIBarButtonItem *inputButton;
-    NSObject <UIInputToolbarDelegate> *delegate;
+    NSObject <UIInputToolbarDelegate> *inputToolbarDelegate;
 }
 
 - (void)drawRect:(CGRect)rect;
 
 @property (nonatomic, retain) UIExpandingTextView *textView;
 @property (nonatomic, retain) UIBarButtonItem *inputButton;
-@property (assign) NSObject<UIInputToolbarDelegate> *delegate;
+@property (assign) NSObject<UIInputToolbarDelegate> *inputToolbarDelegate;
 
 @end

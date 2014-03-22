@@ -153,7 +153,7 @@
     [barItem release];
 }
 
--(IBAction)btLeftTap:(id)sender
+-(IBAction)btnLeftTap:(id)sender
 {
     [self.navigationController popViewControllerAnimated:YES];
 }

@@ -235,7 +235,7 @@
 		CGRect textFrame = [self contentFrame];
         [self.message drawInRect:textFrame
                         withFont:textFont
-                   lineBreakMode:UILineBreakModeWordWrap
+                   lineBreakMode:NSLineBreakByWordWrapping
                        alignment:self.textAlignment];
     }
 }
@@ -294,7 +294,7 @@
     if (self.message!=nil) {
         textSize= [self.message sizeWithFont:textFont
                            constrainedToSize:CGSizeMake(rectWidth, 99999.0)
-                               lineBreakMode:UILineBreakModeWordWrap];
+                               lineBreakMode:NSLineBreakByCharWrapping];
     }
     if (self.customView != nil) {
         textSize = self.customView.frame.size;

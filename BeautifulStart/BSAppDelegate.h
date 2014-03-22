@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BSRootViewController.h"
 
-@interface BSAppDelegate : UIResponder <UIApplicationDelegate>
+@interface BSAppDelegate : UIResponder <UIApplicationDelegate, NGTabBarControllerDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+
+@property (strong, nonatomic) BSRootViewController *rootViewController;
 
 @end

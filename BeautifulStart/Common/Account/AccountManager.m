@@ -10,4 +10,10 @@
 
 @implementation AccountManager
 
+
++ (BOOL)isLoginState
+{
+    return YES;
+}
+
 @end

@@ -26,11 +26,12 @@
 }
 + (UIColor *) colorWithHexString: (NSString *) hexString {
     if ([hexString hasPrefix:@"["]&&[hexString hasSuffix:@"]"]) {
-        if ([hexString respondsToSelector:@selector(objectFromJSONString)]==NO) {
+        SEL selector = NSSelectorFromString(@"objectFromJSONString");
+        if ([hexString respondsToSelector:selector]==NO) {
             NSLog(@"need jsonkit!");
             return [UIColor clearColor];
         }
-        NSArray *array=[hexString performSelector:@selector(objectFromJSONString)];
+        NSArray *array=[hexString performSelector:selector];
         if (array==nil||array.count!=4) {
             NSLog(@"error string:%@",hexString);
             return [UIColor clearColor];

@@ -29,13 +29,13 @@
 
 @synthesize textView;
 @synthesize inputButton;
-@synthesize delegate;
+@synthesize inputToolbarDelegate;
 
 -(void)inputButtonPressed
 {
-    if ([delegate respondsToSelector:@selector(inputButtonPressed:)]) 
+    if ([inputToolbarDelegate respondsToSelector:@selector(inputButtonPressed:)])
     {
-        [delegate inputButtonPressed:self.textView.text];
+        [inputToolbarDelegate inputButtonPressed:self.textView.text];
     }
     
     /* Remove the keyboard and clear the text */

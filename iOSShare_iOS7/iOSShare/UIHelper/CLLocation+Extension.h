@@ -55,8 +55,9 @@ UIKIT_STATIC_INLINE NSString *NSStringFromCLLocationCoordinate2D(CLLocationCoord
 
 UIKIT_STATIC_INLINE CLLocationCoordinate2D CLLocationCoordinate2DFromString(NSString* string)
 {
-    if ([string respondsToSelector:@selector(objectFromJSONString)]) {
-        NSDictionary *dic=[string performSelector:@selector(objectFromJSONString)];
+    SEL selector = NSSelectorFromString(@"objectFromJSONString");
+    if ([string respondsToSelector:selector]) {
+        NSDictionary *dic=[string performSelector:selector];
         
         return CLLocationCoordinate2DMake([[dic objectForKey:@"lat"] doubleValue], [[dic objectForKey:@"lng"] doubleValue]);
     }

@@ -1,8 +1,8 @@
 //
 //  BS_dapter_iOS7.m
-//  GomeEShopHD
+//  tangbinqi
 //
-//  Created by 苏 循波 on 13-10-21.
+//  Created by tangbinqi on 13-10-21.
 //
 //
 //  之前讨论如何适配这种变量的改变，大家讨论意见有直接用0、1、2。。数字，因为他们的排列都一样，但是这样看起来不是很舒服；
@@ -48,21 +48,21 @@
     // 开始适配
     if (IsIOS6Lower) // iOS6以下
     {
-        g_LineBreakByWordWrapping       = UILineBreakModeWordWrap;
-        g_LineBreakByCharWrapping       = UILineBreakModeCharacterWrap;
-        g_LineBreakByClipping           = UILineBreakModeClip;
-        g_LineBreakByTruncatingHead     = UILineBreakModeHeadTruncation;
-        g_LineBreakByTruncatingTail     = UILineBreakModeTailTruncation;
-        g_LineBreakByTruncatingMiddle   = UILineBreakModeMiddleTruncation;
+        g_LineBreakByWordWrapping       = 0;//UILineBreakModeWordWrap;
+        g_LineBreakByCharWrapping       = 1;//UILineBreakModeCharacterWrap;
+        g_LineBreakByClipping           = 2;//UILineBreakModeClip;
+        g_LineBreakByTruncatingHead     = 3;//UILineBreakModeHeadTruncation;
+        g_LineBreakByTruncatingTail     = 4;//UILineBreakModeTailTruncation;
+        g_LineBreakByTruncatingMiddle   = 5;//UILineBreakModeMiddleTruncation;
     }
     else // iOS6以上
     {
-        g_LineBreakByWordWrapping       = NSLineBreakByWordWrapping;
-        g_LineBreakByCharWrapping       = NSLineBreakByCharWrapping;
-        g_LineBreakByClipping           = NSLineBreakByClipping;
-        g_LineBreakByTruncatingHead     = NSLineBreakByTruncatingHead;
-        g_LineBreakByTruncatingTail     = NSLineBreakByTruncatingTail;
-        g_LineBreakByTruncatingMiddle   = NSLineBreakByTruncatingMiddle;
+        g_LineBreakByWordWrapping       = 0;//NSLineBreakByWordWrapping;
+        g_LineBreakByCharWrapping       = 1;//NSLineBreakByCharWrapping;
+        g_LineBreakByClipping           = 2;//NSLineBreakByClipping;
+        g_LineBreakByTruncatingHead     = 3;//NSLineBreakByTruncatingHead;
+        g_LineBreakByTruncatingTail     = 4;//NSLineBreakByTruncatingTail;
+        g_LineBreakByTruncatingMiddle   = 5;//NSLineBreakByTruncatingMiddle;
     }
 }
 
@@ -97,23 +97,29 @@ typedef NS_ENUM(NSInteger, NSTextAlignment) {
 
 #endif
     
+#if __IPHONE_3_2 <= __IPHONE_OS_VERSION_MAX_ALLOWED
+    
+#else
+    
+#endif
+    
     // 开始适配
     if (IsIOS6Lower) // iOS6以下
     {
-        g_TextAlignmentLeft = UITextAlignmentLeft;
-        g_TextAlignmentCenter = UITextAlignmentCenter;
-        g_TextAlignmentRight = UITextAlignmentRight;
+        g_TextAlignmentLeft = 0;//UITextAlignmentLeft;
+        g_TextAlignmentCenter = 1;//UITextAlignmentCenter;
+        g_TextAlignmentRight = 2;//UITextAlignmentRight;
         
-        g_TextAlignmentJustified = UITextAlignmentLeft; // iOS6之前使用默认属性
-        g_TextAlignmentNatural = UITextAlignmentLeft; // iOS6之前使用默认属性
+        g_TextAlignmentJustified = 0;//UITextAlignmentLeft; // iOS6之前使用默认属性
+        g_TextAlignmentNatural = 0;//UITextAlignmentLeft; // iOS6之前使用默认属性
     }
     else // iOS6以上
     {
-        g_TextAlignmentLeft = NSTextAlignmentLeft;
-        g_TextAlignmentCenter = NSTextAlignmentCenter;
-        g_TextAlignmentRight = NSTextAlignmentRight;
-        g_TextAlignmentJustified = NSTextAlignmentJustified;
-        g_TextAlignmentNatural = NSTextAlignmentNatural;
+        g_TextAlignmentLeft = 0;//NSTextAlignmentLeft;
+        g_TextAlignmentCenter = 1;//NSTextAlignmentCenter;
+        g_TextAlignmentRight = 2;//NSTextAlignmentRight;
+        g_TextAlignmentJustified = 0;//NSTextAlignmentJustified;
+        g_TextAlignmentNatural = 0;//NSTextAlignmentNatural;
     }
 }
 

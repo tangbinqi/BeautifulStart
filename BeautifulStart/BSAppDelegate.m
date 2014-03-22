@@ -16,8 +16,9 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    self.rootViewController = [[BSRootViewController alloc] initWithDelegate:self];
+    self.window.rootViewController = self.rootViewController;
     [self.window makeKeyAndVisible];
-    ModelBase *de = [[ModelBase alloc] init];
     return YES;
 }
 
@@ -47,5 +48,35 @@
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
+
+////////////////////////////////////////////////////////////////////////
+#pragma mark - NGTabBarControllerDelegate
+////////////////////////////////////////////////////////////////////////
+
+- (CGSize)tabBarController:(NGTabBarController *)tabBarController
+sizeOfItemForViewController:(UIViewController *)viewController
+                   atIndex:(NSUInteger)index
+                  position:(NGTabBarPosition)position {
+    if (NGTabBarIsVertical(position)) {
+        return CGSizeMake(150.f, 60.f);
+    } else {
+        return CGSizeMake(64.f, 49.f);
+    }
+}
+
+- (void)tabBarController:(NGTabBarController *)tabBarController
+ didSelectViewController:(UIViewController *)viewController
+                 atIndex:(NSUInteger)index
+{
+//    if (index == 3) {
+//        [tabBarController setTabBarHidden:YES animated:YES];
+//    }
+//    if (index == 4) {
+//        tabBarController.tabBarHidden = NO;
+//    }
+}
+
+
+
 
 @end
