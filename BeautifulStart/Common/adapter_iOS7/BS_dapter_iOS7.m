@@ -64,7 +64,10 @@
         g_LineBreakByTruncatingTail     = 4;//NSLineBreakByTruncatingTail;
         g_LineBreakByTruncatingMiddle   = 5;//NSLineBreakByTruncatingMiddle;
     }
+    
+
 }
+
 
 //
 //
@@ -97,11 +100,22 @@ typedef NS_ENUM(NSInteger, NSTextAlignment) {
 
 #endif
     
-#if __IPHONE_3_2 <= __IPHONE_OS_VERSION_MAX_ALLOWED
-    
-#else
-    
-#endif
+//#if __IPHONE_OS_VERSION_MIN_REQUIRED >= __IPHONE_7_0
+//    g_TextAlignmentLeft = NSTextAlignmentLeft;
+//    g_TextAlignmentCenter = NSTextAlignmentCenter;
+//    g_TextAlignmentRight = NSTextAlignmentRight;
+//    g_TextAlignmentJustified = NSTextAlignmentJustified;
+//    g_TextAlignmentNatural = NSTextAlignmentNatural;
+//    
+//#else
+//    g_TextAlignmentLeft = UITextAlignmentLeft;
+//    g_TextAlignmentCenter = UITextAlignmentCenter;
+//    g_TextAlignmentRight = UITextAlignmentRight;
+//    
+//    g_TextAlignmentJustified = UITextAlignmentLeft; // iOS6之前使用默认属性
+//    g_TextAlignmentNatural = UITextAlignmentLeft; // iOS6之前使用默认属性
+//    
+//#endif
     
     // 开始适配
     if (IsIOS6Lower) // iOS6以下
