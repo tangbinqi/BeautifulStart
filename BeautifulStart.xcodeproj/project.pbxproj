@@ -68,6 +68,7 @@
 		EF086E3818DDA15A0029C0E0 /* icon_tab_usercenter.png in Resources */ = {isa = PBXBuildFile; fileRef = EF086E3418DDA15A0029C0E0 /* icon_tab_usercenter.png */; };
 		EF086E3918DDA15A0029C0E0 /* icon_tab_goods.png in Resources */ = {isa = PBXBuildFile; fileRef = EF086E3518DDA15A0029C0E0 /* icon_tab_goods.png */; };
 		EF086E3B18DDA16A0029C0E0 /* icon_tab_question.png in Resources */ = {isa = PBXBuildFile; fileRef = EF086E3A18DDA16A0029C0E0 /* icon_tab_question.png */; };
+		EF09D58D18E0800B0000893D /* BSComUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = EF09D58C18E0800B0000893D /* BSComUtil.m */; };
 		EFD14C9C18DD864A00C76E00 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFD14C9B18DD864A00C76E00 /* MobileCoreServices.framework */; };
 		EFD14CA518DD8C8F00C76E00 /* BSRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD14CA418DD8C8F00C76E00 /* BSRootViewController.m */; };
 		EFD14CA818DD8FAD00C76E00 /* libNGTabBarController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EFD14CA218DD8C3400C76E00 /* libNGTabBarController.a */; };
@@ -211,6 +212,8 @@
 		EF086E3418DDA15A0029C0E0 /* icon_tab_usercenter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_tab_usercenter.png; sourceTree = "<group>"; };
 		EF086E3518DDA15A0029C0E0 /* icon_tab_goods.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_tab_goods.png; sourceTree = "<group>"; };
 		EF086E3A18DDA16A0029C0E0 /* icon_tab_question.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_tab_question.png; sourceTree = "<group>"; };
+		EF09D58B18E0800B0000893D /* BSComUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSComUtil.h; sourceTree = "<group>"; };
+		EF09D58C18E0800B0000893D /* BSComUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSComUtil.m; sourceTree = "<group>"; };
 		EFD14C9B18DD864A00C76E00 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		EFD14C9D18DD8C3400C76E00 /* NGTabBarController.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = NGTabBarController.xcodeproj; path = NGTabBarController/NGTabBarController.xcodeproj; sourceTree = "<group>"; };
 		EFD14CA318DD8C8F00C76E00 /* BSRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSRootViewController.h; sourceTree = "<group>"; };
@@ -530,6 +533,8 @@
 		8CB8B26E18ADF2580031B387 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				EF09D58B18E0800B0000893D /* BSComUtil.h */,
+				EF09D58C18E0800B0000893D /* BSComUtil.m */,
 				8CB8B27218ADF2580031B387 /* BaseClass */,
 				8CB8B26F18ADF2580031B387 /* Account */,
 				8CB8B27018ADF2580031B387 /* adapter_iOS7 */,
@@ -909,6 +914,7 @@
 				8CB8B2B618AE164C0031B387 /* KeyChainIDFA.m in Sources */,
 				8C66F23B18AF645800BD5196 /* BSSearchViewController.m in Sources */,
 				8CB8B2A218AE0F250031B387 /* MD5Tool.m in Sources */,
+				EF09D58D18E0800B0000893D /* BSComUtil.m in Sources */,
 				8C66F23118AF642B00BD5196 /* BSGoodsViewController.m in Sources */,
 				8CD16A8518B4602D0012C8DC /* BS_dapter_iOS7.m in Sources */,
 				8CB8B2A118AE0F250031B387 /* DESTools.m in Sources */,

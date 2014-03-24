@@ -15,6 +15,7 @@
 
 #import "BSGlobalVariable.h"
 
+#import "BSComUtil.h"
 
 
 

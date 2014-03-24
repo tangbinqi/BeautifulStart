@@ -7,6 +7,7 @@
 //
 
 #import "BSHomeViewController.h"
+#import "BSLoginViewController.h"
 
 @interface BSHomeViewController ()
 
@@ -35,4 +36,12 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)login:(id)sender {
+   UINavigationController *loginNav = [[UINavigationController alloc] initWithRootViewController:
+                                       [[BSLoginViewController alloc] initWithNibName:@"BSLoginViewController"
+                                                                               bundle:[NSBundle mainBundle]]];
+    loginNav.navigationBar.hidden = YES;
+    [self presentViewController:loginNav animated:YES completion:^{
+    }];
+}
 @end

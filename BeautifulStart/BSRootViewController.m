@@ -28,7 +28,7 @@
     if (self) {
         self.animation = NGTabBarControllerAnimationMoveAndScale;
         self.view.backgroundColor = [UIColor lightGrayColor];
-        self.tabBar.tintColor = [UIColor colorWithRed:157.f/255.f green:32.f/255.f blue:25.f/255.f alpha:1.f];
+        self.tabBar.tintColor = [UIColor colorWithRed:255.f/255.f green:0.f/255.f blue:128.f/255.f alpha:1.f];
         self.tabBar.itemPadding = 0.f;
         [self setupForInterfaceOrientation:[UIApplication sharedApplication].statusBarOrientation];
         

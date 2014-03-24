@@ -180,6 +180,10 @@ static inline CGRect CGRectCenter(CGRect rect,CGSize size)
 @end
 
 
+@interface UIView (Animation)
+- (void)shake;   //抖动效果
+@end
+
 /**
  一个view,用于调试
  
