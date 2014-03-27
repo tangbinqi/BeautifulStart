@@ -30,6 +30,7 @@
         self.view.backgroundColor = [UIColor lightGrayColor];
         self.tabBar.tintColor = [UIColor colorWithRed:255.f/255.f green:0.f/255.f blue:128.f/255.f alpha:1.f];
         self.tabBar.itemPadding = 0.f;
+//        self.tabBar.position = NGTabBarPositionBottom;
         [self setupForInterfaceOrientation:[UIApplication sharedApplication].statusBarOrientation];
         
         [self initSubViewControllers];

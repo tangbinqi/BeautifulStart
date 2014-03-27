@@ -417,11 +417,11 @@
 		8CB8B23C18ADC8B00031B387 /* BeautifulStart */ = {
 			isa = PBXGroup;
 			children = (
-				8C66F21818AF62FB00BD5196 /* Views+Controllers */,
 				8CB8B24518ADC8B00031B387 /* BSAppDelegate.h */,
 				8CB8B24618ADC8B00031B387 /* BSAppDelegate.m */,
 				EFD14CA318DD8C8F00C76E00 /* BSRootViewController.h */,
 				EFD14CA418DD8C8F00C76E00 /* BSRootViewController.m */,
+				8C66F21818AF62FB00BD5196 /* Views+Controllers */,
 				8C66F24818AF671200BD5196 /* Model */,
 				8CB8B26E18ADF2580031B387 /* Common */,
 				8CB8B28118ADF2580031B387 /* Config */,
@@ -1052,13 +1052,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SRCROOT)/iOSShare\"",
+					"\"$(SRCROOT)/iOSShare_iOS7/iOSShare\"",
 					"\"${PODS_ROOT}\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BeautifulStart/BeautifulStart-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
-					"\"$(SRCROOT)/iOSShare\"/**",
+					"\"$(SRCROOT)/iOSShare_iOS7/iOSShare\"/**",
 					"\"${PODS_ROOT}/Headers\"",
 					"\"${PODS_ROOT}/Headers/AFNetworking\"",
 					"\"${PODS_ROOT}/Headers/EGOTableViewPullRefresh\"",
@@ -1103,13 +1103,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SRCROOT)/iOSShare\"",
+					"\"$(SRCROOT)/iOSShare_iOS7/iOSShare\"",
 					"\"${PODS_ROOT}\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BeautifulStart/BeautifulStart-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
-					"\"$(SRCROOT)/iOSShare\"/**",
+					"\"$(SRCROOT)/iOSShare_iOS7/iOSShare\"/**",
 					"\"${PODS_ROOT}/Headers\"",
 					"\"${PODS_ROOT}/Headers/AFNetworking\"",
 					"\"${PODS_ROOT}/Headers/EGOTableViewPullRefresh\"",
