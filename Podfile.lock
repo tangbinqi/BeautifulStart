@@ -1,36 +1,37 @@
 PODS:
-  - AFNetworking (2.1.0):
+  - AFNetworking (2.2.1):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
     - AFNetworking/Reachability
     - AFNetworking/Security
     - AFNetworking/Serialization
     - AFNetworking/UIKit
-  - AFNetworking/NSURLConnection (2.1.0):
+  - AFNetworking/NSURLConnection (2.2.1):
     - AFNetworking/Reachability
     - AFNetworking/Security
     - AFNetworking/Serialization
-  - AFNetworking/NSURLSession (2.1.0):
+  - AFNetworking/NSURLSession (2.2.1):
     - AFNetworking/NSURLConnection
-  - AFNetworking/Reachability (2.1.0)
-  - AFNetworking/Security (2.1.0)
-  - AFNetworking/Serialization (2.1.0)
-  - AFNetworking/UIKit (2.1.0):
+  - AFNetworking/Reachability (2.2.1)
+  - AFNetworking/Security (2.2.1)
+  - AFNetworking/Serialization (2.2.1)
+  - AFNetworking/UIKit (2.2.1):
     - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
   - EGOTableViewPullRefresh (0.1.0)
   - MBProgressHUD (0.8)
-  - SDWebImage (3.5.2):
+  - SDWebImage (3.5.4):
     - SDWebImage/Core
-  - SDWebImage-ProgressView (0.3.0):
+  - SDWebImage-ProgressView (0.3.1):
     - SDWebImage (~> 3.0)
-  - SDWebImage/Core (3.5.2)
+  - SDWebImage/Core (3.5.4)
   - SFHFKeychainUtils (0.0.1)
   - UAAppReviewManager (0.2.1)
   - UIActivityIndicator-for-SDWebImage (1.0.3):
     - SDWebImage (~> 3.2)
 
 DEPENDENCIES:
-  - AFNetworking (~> 2.0)
+  - AFNetworking (~> 2.2.1)
   - EGOTableViewPullRefresh (~> 0.1.0)
   - MBProgressHUD (~> 0.8)
   - SDWebImage (~> 3.5.2)
@@ -40,11 +41,11 @@ DEPENDENCIES:
   - UIActivityIndicator-for-SDWebImage (~> 1.0.3)
 
 SPEC CHECKSUMS:
-  AFNetworking: c7d7901a83f631414c7eda1737261f696101a5cd
+  AFNetworking: 0121f4b69be3fa58d1ab317866e036e12ac9651d
   EGOTableViewPullRefresh: 6ba637ce6dd3186b503d2d91e6b3a08a26d650f5
   MBProgressHUD: 2bbc6f470111daf7f3eaa4eb12b8cbf01c4c0622
-  SDWebImage: fe7ce01ae4e0a884d168f59c9dd82d35baf8429e
-  SDWebImage-ProgressView: 0984b5b885886358dff24964912d3313e104ad4f
+  SDWebImage: 1a62010700adbba823b621fc217906739dbf6aa5
+  SDWebImage-ProgressView: 472d7eb4ed2663109164afc13b936d8e3e5c8cd6
   SFHFKeychainUtils: e828dbd9eaa509486acf95d8de2ebd414c4b7451
   UAAppReviewManager: 5951542f163e9964ce0e5bd6543f512dfc0efd51
   UIActivityIndicator-for-SDWebImage: e712b97826395022ce7b4a4b56eb7194090c19d5

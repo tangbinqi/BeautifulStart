@@ -1,5 +1,5 @@
-platform :ios,'7.0'
-pod "AFNetworking", "~> 2.0"
+platform :ios,'6.0'
+pod 'AFNetworking', '~> 2.2.1'
 
 pod 'SFHFKeychainUtils', '~> 0.0.1'
 
