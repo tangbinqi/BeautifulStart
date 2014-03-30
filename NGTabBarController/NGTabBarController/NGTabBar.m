@@ -9,6 +9,7 @@
 
 @interface NGTabBar () {
     CGGradientRef _gradientRef;
+    CGPoint _contentOffset;
 }
 
 @property (nonatomic, strong) UIView *backgroundView;
@@ -63,6 +64,15 @@
     if (_gradientRef != NULL) {
         CFRelease(_gradientRef);
     }
+}
+
+
+- (void)setContentOffset:(CGPoint)contentOffset{
+    _contentOffset = contentOffset;
+}
+
+- (CGPoint)contentOffset{
+    return _contentOffset;
 }
 
 ////////////////////////////////////////////////////////////////////////
@@ -184,7 +194,7 @@
 
 - (void)setItems:(NSArray *)items {
     if (items != _items) {
-        [_items performSelector:@selector(removeFromSuperview)];
+        [_items makeObjectsPerformSelector:@selector(removeFromSuperview)];
         
         _items = items;
         
