@@ -118,4 +118,6 @@
 #define CELL_DEFAULT_HEIGHT 45
 
 
+#define MAIN_COLOR   
+
 #endif
