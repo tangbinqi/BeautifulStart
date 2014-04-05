@@ -34,9 +34,12 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
+    tView.backgroundView = nil;
+    tView.tableFooterView = [self tableViewFoot];
     // Do any additional setup after loading the view from its nib.
 }
+
+
 
 - (void)viewWillAppear:(BOOL)animated
 {
@@ -47,6 +50,19 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (UIView *)tableViewFoot
+{
+    UIView *footView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, screenW, CELL_DEFAULT_HEIGHT+30)];
+    UIButton *logOutBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+    logOutBtn.frame = CGRectMake(20, 12, 280, 40);
+    logOutBtn.backgroundColor = MAIN_COLOR;
+    [logOutBtn setTitle:@"退出" forState:UIControlStateNormal];
+    [logOutBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+    [logOutBtn addTarget:self action:@selector(logOut:) forControlEvents:UIControlEventTouchUpInside];
+    [footView addSubview:logOutBtn];
+    return footView;
 }
 
 
@@ -94,6 +110,12 @@
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
     return CELL_DEFAULT_HEIGHT;
+}
+
+#pragma mark - Founction
+- (void)logOut:(UIButton *)btn
+{
+    NSLog(@"退出登录");
 }
 
 @end

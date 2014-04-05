@@ -62,13 +62,13 @@
 		8CD16A7F18B457E00012C8DC /* Device.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD16A7D18B457E00012C8DC /* Device.m */; };
 		8CD16A8518B4602D0012C8DC /* BS_dapter_iOS7.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD16A8418B4602D0012C8DC /* BS_dapter_iOS7.m */; };
 		EF086E3018DD9E6B0029C0E0 /* BSUserCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF086E2E18DD9E6B0029C0E0 /* BSUserCenterViewController.m */; };
-		EF086E3118DD9E6B0029C0E0 /* BSUserCenterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF086E2F18DD9E6B0029C0E0 /* BSUserCenterViewController.xib */; };
 		EF086E3618DDA15A0029C0E0 /* icon_tab_home.png in Resources */ = {isa = PBXBuildFile; fileRef = EF086E3218DDA15A0029C0E0 /* icon_tab_home.png */; };
 		EF086E3718DDA15A0029C0E0 /* icon_tab_share.png in Resources */ = {isa = PBXBuildFile; fileRef = EF086E3318DDA15A0029C0E0 /* icon_tab_share.png */; };
 		EF086E3818DDA15A0029C0E0 /* icon_tab_usercenter.png in Resources */ = {isa = PBXBuildFile; fileRef = EF086E3418DDA15A0029C0E0 /* icon_tab_usercenter.png */; };
 		EF086E3918DDA15A0029C0E0 /* icon_tab_goods.png in Resources */ = {isa = PBXBuildFile; fileRef = EF086E3518DDA15A0029C0E0 /* icon_tab_goods.png */; };
 		EF086E3B18DDA16A0029C0E0 /* icon_tab_question.png in Resources */ = {isa = PBXBuildFile; fileRef = EF086E3A18DDA16A0029C0E0 /* icon_tab_question.png */; };
 		EF09D58D18E0800B0000893D /* BSComUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = EF09D58C18E0800B0000893D /* BSComUtil.m */; };
+		EFBF94CE18E9A427009DF4DB /* BSUserCenterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFBF94D018E9A427009DF4DB /* BSUserCenterViewController.xib */; };
 		EFD14C9C18DD864A00C76E00 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFD14C9B18DD864A00C76E00 /* MobileCoreServices.framework */; };
 		EFD14CA518DD8C8F00C76E00 /* BSRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD14CA418DD8C8F00C76E00 /* BSRootViewController.m */; };
 		EFD14CA818DD8FAD00C76E00 /* libNGTabBarController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EFD14CA218DD8C3400C76E00 /* libNGTabBarController.a */; };
@@ -206,7 +206,6 @@
 		E5F126179A1C40DEA0D3A758 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		EF086E2D18DD9E6B0029C0E0 /* BSUserCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSUserCenterViewController.h; sourceTree = "<group>"; };
 		EF086E2E18DD9E6B0029C0E0 /* BSUserCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSUserCenterViewController.m; sourceTree = "<group>"; };
-		EF086E2F18DD9E6B0029C0E0 /* BSUserCenterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSUserCenterViewController.xib; sourceTree = "<group>"; };
 		EF086E3218DDA15A0029C0E0 /* icon_tab_home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_tab_home.png; sourceTree = "<group>"; };
 		EF086E3318DDA15A0029C0E0 /* icon_tab_share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_tab_share.png; sourceTree = "<group>"; };
 		EF086E3418DDA15A0029C0E0 /* icon_tab_usercenter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_tab_usercenter.png; sourceTree = "<group>"; };
@@ -214,6 +213,7 @@
 		EF086E3A18DDA16A0029C0E0 /* icon_tab_question.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_tab_question.png; sourceTree = "<group>"; };
 		EF09D58B18E0800B0000893D /* BSComUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSComUtil.h; sourceTree = "<group>"; };
 		EF09D58C18E0800B0000893D /* BSComUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSComUtil.m; sourceTree = "<group>"; };
+		EFBF94CF18E9A427009DF4DB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BSUserCenterViewController.xib; sourceTree = "<group>"; };
 		EFD14C9B18DD864A00C76E00 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		EFD14C9D18DD8C3400C76E00 /* NGTabBarController.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = NGTabBarController.xcodeproj; path = NGTabBarController/NGTabBarController.xcodeproj; sourceTree = "<group>"; };
 		EFD14CA318DD8C8F00C76E00 /* BSRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSRootViewController.h; sourceTree = "<group>"; };
@@ -697,7 +697,7 @@
 			children = (
 				EF086E2D18DD9E6B0029C0E0 /* BSUserCenterViewController.h */,
 				EF086E2E18DD9E6B0029C0E0 /* BSUserCenterViewController.m */,
-				EF086E2F18DD9E6B0029C0E0 /* BSUserCenterViewController.xib */,
+				EFBF94D018E9A427009DF4DB /* BSUserCenterViewController.xib */,
 			);
 			path = UserCenter;
 			sourceTree = "<group>";
@@ -829,7 +829,7 @@
 				8CB8B2A618AE0F250031B387 /* guide1.png in Resources */,
 				8CB8B2A918AE0F250031B387 /* guideBG.jpg in Resources */,
 				8CB8B2A718AE0F250031B387 /* guide2.png in Resources */,
-				EF086E3118DD9E6B0029C0E0 /* BSUserCenterViewController.xib in Resources */,
+				EFBF94CE18E9A427009DF4DB /* BSUserCenterViewController.xib in Resources */,
 				EF086E3B18DDA16A0029C0E0 /* icon_tab_question.png in Resources */,
 				8C66F23718AF644000BD5196 /* BSQuestionListViewController.xib in Resources */,
 				8CB8B28218ADF2580031B387 /* Beijing, China.gpx in Resources */,
@@ -972,6 +972,14 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
+		EFBF94D018E9A427009DF4DB /* BSUserCenterViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFBF94CF18E9A427009DF4DB /* en */,
+			);
+			name = BSUserCenterViewController.xib;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -991,6 +999,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -1029,6 +1038,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
@@ -1052,7 +1062,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SRCROOT)/iOSShare_iOS7/iOSShare\"",
+					"\"$(SRCROOT)/iOSShare_iOS7/iOSShare\"/**",
 					"\"${PODS_ROOT}\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -1103,7 +1113,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SRCROOT)/iOSShare_iOS7/iOSShare\"",
+					"\"$(SRCROOT)/iOSShare_iOS7/iOSShare\"/**",
 					"\"${PODS_ROOT}\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;

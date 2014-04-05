@@ -62,7 +62,7 @@
 #pragma mark - 打印LOG使用，能打印LOG所在的文件，函数名等细节
 //
 #define FUNCNAME [NSString stringWithCString:__FUNCTION__ encoding:NSUTF8StringEncoding]
-#define FUNCNAME_SXB [NSString stringWithFormat:@"...sxb...%@...", \
+#define FUNCNAME_TBQ [NSString stringWithFormat:@"...tbq...%@...", \
 [NSString stringWithCString:__FUNCTION__ encoding:NSUTF8StringEncoding]]
 
 
@@ -118,6 +118,6 @@
 #define CELL_DEFAULT_HEIGHT 45
 
 
-#define MAIN_COLOR   
+#define MAIN_COLOR   [UIColor colorWithRed:255.0/255.0 green:0/255 blue:128.0/255.0 alpha:1]
 
 #endif
