@@ -24,6 +24,8 @@
     return self;
 }
 
+
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -43,5 +45,11 @@
     loginNav.navigationBar.hidden = YES;
     [self presentViewController:loginNav animated:YES completion:^{
     }];
+//    [self.navigationController pushViewController:
+//     [[BSLoginViewController alloc]
+//      initWithNibName:@"BSLoginViewController"
+//      
+//      bundle:[NSBundle mainBundle]]
+//                                         animated:YES];
 }
 @end

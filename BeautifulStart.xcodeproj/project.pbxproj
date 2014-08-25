@@ -68,10 +68,19 @@
 		EF086E3918DDA15A0029C0E0 /* icon_tab_goods.png in Resources */ = {isa = PBXBuildFile; fileRef = EF086E3518DDA15A0029C0E0 /* icon_tab_goods.png */; };
 		EF086E3B18DDA16A0029C0E0 /* icon_tab_question.png in Resources */ = {isa = PBXBuildFile; fileRef = EF086E3A18DDA16A0029C0E0 /* icon_tab_question.png */; };
 		EF09D58D18E0800B0000893D /* BSComUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = EF09D58C18E0800B0000893D /* BSComUtil.m */; };
-		EFBF94CE18E9A427009DF4DB /* BSUserCenterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFBF94D018E9A427009DF4DB /* BSUserCenterViewController.xib */; };
+		EF50092B197269C700E31699 /* MALTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = EF500923197269C700E31699 /* MALTabBar.m */; };
+		EF50092C197269C700E31699 /* MALTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = EF500926197269C700E31699 /* MALTabBarItem.m */; };
+		EF50092D197269C700E31699 /* MALTabBarItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EF500928197269C700E31699 /* MALTabBarItemModel.m */; };
+		EF50092E197269C700E31699 /* MALTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF50092A197269C700E31699 /* MALTabBarViewController.m */; };
+		EF50093219726C5F00E31699 /* BSRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF50093119726C5F00E31699 /* BSRootViewController.m */; };
+		EF5009381972757600E31699 /* icon_tab_goods_hl.png in Resources */ = {isa = PBXBuildFile; fileRef = EF5009331972757600E31699 /* icon_tab_goods_hl.png */; };
+		EF5009391972757600E31699 /* icon_tab_home_hl.png in Resources */ = {isa = PBXBuildFile; fileRef = EF5009341972757600E31699 /* icon_tab_home_hl.png */; };
+		EF50093A1972757600E31699 /* icon_tab_question_hl.png in Resources */ = {isa = PBXBuildFile; fileRef = EF5009351972757600E31699 /* icon_tab_question_hl.png */; };
+		EF50093B1972757600E31699 /* icon_tab_share_hl.png in Resources */ = {isa = PBXBuildFile; fileRef = EF5009361972757600E31699 /* icon_tab_share_hl.png */; };
+		EF50093C1972757600E31699 /* icon_tab_usercenter_hl.png in Resources */ = {isa = PBXBuildFile; fileRef = EF5009371972757600E31699 /* icon_tab_usercenter_hl.png */; };
 		EFD14C9C18DD864A00C76E00 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFD14C9B18DD864A00C76E00 /* MobileCoreServices.framework */; };
-		EFD14CA518DD8C8F00C76E00 /* BSRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD14CA418DD8C8F00C76E00 /* BSRootViewController.m */; };
-		EFD14CA818DD8FAD00C76E00 /* libNGTabBarController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EFD14CA218DD8C3400C76E00 /* libNGTabBarController.a */; };
+		EFFB73A319A04B5C0079133A /* SBNavigationBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = EFFB73A219A04B5C0079133A /* SBNavigationBarView.m */; };
+		EFFB73A619A068750079133A /* BSUserCenterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFFB73A519A068750079133A /* BSUserCenterViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,20 +111,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 8CAC37BA18B2FA6300737F24;
 			remoteInfo = iOSShare;
-		};
-		EFD14CA118DD8C3400C76E00 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EFD14C9D18DD8C3400C76E00 /* NGTabBarController.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 9B80B52D14EA8F7100B83FA0;
-			remoteInfo = NGTabBarController;
-		};
-		EFD14CA618DD8F8F00C76E00 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EFD14C9D18DD8C3400C76E00 /* NGTabBarController.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 9B80B52C14EA8F7100B83FA0;
-			remoteInfo = NGTabBarController;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -213,11 +208,26 @@
 		EF086E3A18DDA16A0029C0E0 /* icon_tab_question.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_tab_question.png; sourceTree = "<group>"; };
 		EF09D58B18E0800B0000893D /* BSComUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSComUtil.h; sourceTree = "<group>"; };
 		EF09D58C18E0800B0000893D /* BSComUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSComUtil.m; sourceTree = "<group>"; };
-		EFBF94CF18E9A427009DF4DB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BSUserCenterViewController.xib; sourceTree = "<group>"; };
+		EF500922197269C700E31699 /* MALTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MALTabBar.h; sourceTree = "<group>"; };
+		EF500923197269C700E31699 /* MALTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MALTabBar.m; sourceTree = "<group>"; };
+		EF500924197269C700E31699 /* MALTabBarChinldVIewControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MALTabBarChinldVIewControllerDelegate.h; sourceTree = "<group>"; };
+		EF500925197269C700E31699 /* MALTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MALTabBarItem.h; sourceTree = "<group>"; };
+		EF500926197269C700E31699 /* MALTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MALTabBarItem.m; sourceTree = "<group>"; };
+		EF500927197269C700E31699 /* MALTabBarItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MALTabBarItemModel.h; sourceTree = "<group>"; };
+		EF500928197269C700E31699 /* MALTabBarItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MALTabBarItemModel.m; sourceTree = "<group>"; };
+		EF500929197269C700E31699 /* MALTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MALTabBarViewController.h; sourceTree = "<group>"; };
+		EF50092A197269C700E31699 /* MALTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MALTabBarViewController.m; sourceTree = "<group>"; };
+		EF50093019726C5F00E31699 /* BSRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSRootViewController.h; sourceTree = "<group>"; };
+		EF50093119726C5F00E31699 /* BSRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSRootViewController.m; sourceTree = "<group>"; };
+		EF5009331972757600E31699 /* icon_tab_goods_hl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_tab_goods_hl.png; sourceTree = "<group>"; };
+		EF5009341972757600E31699 /* icon_tab_home_hl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_tab_home_hl.png; sourceTree = "<group>"; };
+		EF5009351972757600E31699 /* icon_tab_question_hl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_tab_question_hl.png; sourceTree = "<group>"; };
+		EF5009361972757600E31699 /* icon_tab_share_hl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_tab_share_hl.png; sourceTree = "<group>"; };
+		EF5009371972757600E31699 /* icon_tab_usercenter_hl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_tab_usercenter_hl.png; sourceTree = "<group>"; };
 		EFD14C9B18DD864A00C76E00 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
-		EFD14C9D18DD8C3400C76E00 /* NGTabBarController.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = NGTabBarController.xcodeproj; path = NGTabBarController/NGTabBarController.xcodeproj; sourceTree = "<group>"; };
-		EFD14CA318DD8C8F00C76E00 /* BSRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSRootViewController.h; sourceTree = "<group>"; };
-		EFD14CA418DD8C8F00C76E00 /* BSRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSRootViewController.m; sourceTree = "<group>"; };
+		EFFB73A119A04B5C0079133A /* SBNavigationBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBNavigationBarView.h; sourceTree = "<group>"; };
+		EFFB73A219A04B5C0079133A /* SBNavigationBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBNavigationBarView.m; sourceTree = "<group>"; };
+		EFFB73A519A068750079133A /* BSUserCenterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSUserCenterViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -225,7 +235,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFD14CA818DD8FAD00C76E00 /* libNGTabBarController.a in Frameworks */,
 				EFD14C9C18DD864A00C76E00 /* MobileCoreServices.framework in Frameworks */,
 				8CD16A7918B448E10012C8DC /* libiOSShare.a in Frameworks */,
 				8C2D10CC18AF32B000E1C9A5 /* libsqlite3.dylib in Frameworks */,
@@ -408,7 +417,6 @@
 				8CB8B23A18ADC8B00031B387 /* UIKit.framework */,
 				8CB8B24F18ADC8B00031B387 /* XCTest.framework */,
 				C50E3CB38C364966B1A97199 /* libPods.a */,
-				EFD14C9D18DD8C3400C76E00 /* NGTabBarController.xcodeproj */,
 				8CD16A6E18B448C60012C8DC /* iOSShare.xcodeproj */,
 			);
 			name = Frameworks;
@@ -419,8 +427,8 @@
 			children = (
 				8CB8B24518ADC8B00031B387 /* BSAppDelegate.h */,
 				8CB8B24618ADC8B00031B387 /* BSAppDelegate.m */,
-				EFD14CA318DD8C8F00C76E00 /* BSRootViewController.h */,
-				EFD14CA418DD8C8F00C76E00 /* BSRootViewController.m */,
+				EF50093019726C5F00E31699 /* BSRootViewController.h */,
+				EF50093119726C5F00E31699 /* BSRootViewController.m */,
 				8C66F21818AF62FB00BD5196 /* Views+Controllers */,
 				8C66F24818AF671200BD5196 /* Model */,
 				8CB8B26E18ADF2580031B387 /* Common */,
@@ -500,6 +508,11 @@
 		8CB8B26A18ADF2580031B387 /* IMG */ = {
 			isa = PBXGroup;
 			children = (
+				EF5009331972757600E31699 /* icon_tab_goods_hl.png */,
+				EF5009341972757600E31699 /* icon_tab_home_hl.png */,
+				EF5009351972757600E31699 /* icon_tab_question_hl.png */,
+				EF5009361972757600E31699 /* icon_tab_share_hl.png */,
+				EF5009371972757600E31699 /* icon_tab_usercenter_hl.png */,
 				EF086E3A18DDA16A0029C0E0 /* icon_tab_question.png */,
 				EF086E3218DDA15A0029C0E0 /* icon_tab_home.png */,
 				EF086E3318DDA15A0029C0E0 /* icon_tab_share.png */,
@@ -539,6 +552,7 @@
 				8CB8B26F18ADF2580031B387 /* Account */,
 				8CB8B27018ADF2580031B387 /* adapter_iOS7 */,
 				8CB8B27318ADF2580031B387 /* NetWork */,
+				EF500920197269C700E31699 /* CustomView */,
 				8CB8B27418ADF2580031B387 /* ThirdControls */,
 				8CD16A8018B45D950012C8DC /* BSGlobalVariable.h */,
 				8CD16A8618B461500012C8DC /* BSComHeader.h */,
@@ -567,6 +581,8 @@
 		8CB8B27218ADF2580031B387 /* BaseClass */ = {
 			isa = PBXGroup;
 			children = (
+				EFFB73A119A04B5C0079133A /* SBNavigationBarView.h */,
+				EFFB73A219A04B5C0079133A /* SBNavigationBarView.m */,
 				8CB8B2AB18AE14ED0031B387 /* BSViewController.h */,
 				8CB8B2AC18AE14ED0031B387 /* BSViewController.m */,
 				8CB8B2AE18AE151F0031B387 /* BSNavigationController.h */,
@@ -697,17 +713,33 @@
 			children = (
 				EF086E2D18DD9E6B0029C0E0 /* BSUserCenterViewController.h */,
 				EF086E2E18DD9E6B0029C0E0 /* BSUserCenterViewController.m */,
-				EFBF94D018E9A427009DF4DB /* BSUserCenterViewController.xib */,
+				EFFB73A519A068750079133A /* BSUserCenterViewController.xib */,
 			);
 			path = UserCenter;
 			sourceTree = "<group>";
 		};
-		EFD14C9E18DD8C3400C76E00 /* Products */ = {
+		EF500920197269C700E31699 /* CustomView */ = {
 			isa = PBXGroup;
 			children = (
-				EFD14CA218DD8C3400C76E00 /* libNGTabBarController.a */,
+				EF500921197269C700E31699 /* MALTabBarController */,
 			);
-			name = Products;
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		EF500921197269C700E31699 /* MALTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				EF500922197269C700E31699 /* MALTabBar.h */,
+				EF500923197269C700E31699 /* MALTabBar.m */,
+				EF500924197269C700E31699 /* MALTabBarChinldVIewControllerDelegate.h */,
+				EF500925197269C700E31699 /* MALTabBarItem.h */,
+				EF500926197269C700E31699 /* MALTabBarItem.m */,
+				EF500927197269C700E31699 /* MALTabBarItemModel.h */,
+				EF500928197269C700E31699 /* MALTabBarItemModel.m */,
+				EF500929197269C700E31699 /* MALTabBarViewController.h */,
+				EF50092A197269C700E31699 /* MALTabBarViewController.m */,
+			);
+			path = MALTabBarController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -726,7 +758,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				EFD14CA718DD8F8F00C76E00 /* PBXTargetDependency */,
 				8CD16A7818B448D80012C8DC /* PBXTargetDependency */,
 			);
 			name = BeautifulStart;
@@ -783,10 +814,6 @@
 					ProductGroup = 8CD16A6F18B448C60012C8DC /* Products */;
 					ProjectRef = 8CD16A6E18B448C60012C8DC /* iOSShare.xcodeproj */;
 				},
-				{
-					ProductGroup = EFD14C9E18DD8C3400C76E00 /* Products */;
-					ProjectRef = EFD14C9D18DD8C3400C76E00 /* NGTabBarController.xcodeproj */;
-				},
 			);
 			projectRoot = "";
 			targets = (
@@ -811,13 +838,6 @@
 			remoteRef = 8CD16A7518B448C70012C8DC /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		EFD14CA218DD8C3400C76E00 /* libNGTabBarController.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libNGTabBarController.a;
-			remoteRef = EFD14CA118DD8C3400C76E00 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -828,16 +848,20 @@
 				EF086E3818DDA15A0029C0E0 /* icon_tab_usercenter.png in Resources */,
 				8CB8B2A618AE0F250031B387 /* guide1.png in Resources */,
 				8CB8B2A918AE0F250031B387 /* guideBG.jpg in Resources */,
+				EFFB73A619A068750079133A /* BSUserCenterViewController.xib in Resources */,
 				8CB8B2A718AE0F250031B387 /* guide2.png in Resources */,
-				EFBF94CE18E9A427009DF4DB /* BSUserCenterViewController.xib in Resources */,
+				EF50093A1972757600E31699 /* icon_tab_question_hl.png in Resources */,
 				EF086E3B18DDA16A0029C0E0 /* icon_tab_question.png in Resources */,
+				EF5009391972757600E31699 /* icon_tab_home_hl.png in Resources */,
 				8C66F23718AF644000BD5196 /* BSQuestionListViewController.xib in Resources */,
 				8CB8B28218ADF2580031B387 /* Beijing, China.gpx in Resources */,
 				8CB8B24118ADC8B00031B387 /* InfoPlist.strings in Resources */,
+				EF50093B1972757600E31699 /* icon_tab_share_hl.png in Resources */,
 				8C66F22818AF63AD00BD5196 /* BSLoginViewController.xib in Resources */,
 				8C66F24118AF646A00BD5196 /* BSShareViewController.xib in Resources */,
 				8CB8B24918ADC8B00031B387 /* Images.xcassets in Resources */,
 				EF086E3918DDA15A0029C0E0 /* icon_tab_goods.png in Resources */,
+				EF50093C1972757600E31699 /* icon_tab_usercenter_hl.png in Resources */,
 				EF086E3718DDA15A0029C0E0 /* icon_tab_share.png in Resources */,
 				8C66F22318AF637000BD5196 /* BSHomeViewController.xib in Resources */,
 				8C66F23C18AF645800BD5196 /* BSSearchViewController.xib in Resources */,
@@ -846,6 +870,7 @@
 				8C66F23218AF642B00BD5196 /* BSGoodsViewController.xib in Resources */,
 				8CB8B2A518AE0F250031B387 /* guide0.png in Resources */,
 				EF086E3618DDA15A0029C0E0 /* icon_tab_home.png in Resources */,
+				EF5009381972757600E31699 /* icon_tab_goods_hl.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -902,9 +927,11 @@
 				8C66F24018AF646A00BD5196 /* BSShareViewController.m in Sources */,
 				8CB8B2B718AE164C0031B387 /* KeychainItemWrapper.m in Sources */,
 				8CB8B29F18AE0F250031B387 /* JSONTool.m in Sources */,
+				EFFB73A319A04B5C0079133A /* SBNavigationBarView.m in Sources */,
 				EF086E3018DD9E6B0029C0E0 /* BSUserCenterViewController.m in Sources */,
+				EF50092C197269C700E31699 /* MALTabBarItem.m in Sources */,
 				8CB8B2B018AE151F0031B387 /* BSNavigationController.m in Sources */,
-				EFD14CA518DD8C8F00C76E00 /* BSRootViewController.m in Sources */,
+				EF50092B197269C700E31699 /* MALTabBar.m in Sources */,
 				8C66F22C18AF63C000BD5196 /* BSRegistViewController.m in Sources */,
 				8C66F25D18AF798000BD5196 /* AccountManager.m in Sources */,
 				8CB8B24318ADC8B00031B387 /* main.m in Sources */,
@@ -916,7 +943,10 @@
 				8CB8B2A218AE0F250031B387 /* MD5Tool.m in Sources */,
 				EF09D58D18E0800B0000893D /* BSComUtil.m in Sources */,
 				8C66F23118AF642B00BD5196 /* BSGoodsViewController.m in Sources */,
+				EF50092D197269C700E31699 /* MALTabBarItemModel.m in Sources */,
 				8CD16A8518B4602D0012C8DC /* BS_dapter_iOS7.m in Sources */,
+				EF50092E197269C700E31699 /* MALTabBarViewController.m in Sources */,
+				EF50093219726C5F00E31699 /* BSRootViewController.m in Sources */,
 				8CB8B2A118AE0F250031B387 /* DESTools.m in Sources */,
 				8CB8B2AD18AE14ED0031B387 /* BSViewController.m in Sources */,
 				8C66F25418AF679700BD5196 /* Account.m in Sources */,
@@ -948,11 +978,6 @@
 			name = iOSShare;
 			targetProxy = 8CD16A7718B448D80012C8DC /* PBXContainerItemProxy */;
 		};
-		EFD14CA718DD8F8F00C76E00 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = NGTabBarController;
-			targetProxy = EFD14CA618DD8F8F00C76E00 /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
@@ -970,14 +995,6 @@
 				8CB8B25918ADC8B00031B387 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		EFBF94D018E9A427009DF4DB /* BSUserCenterViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EFBF94CF18E9A427009DF4DB /* en */,
-			);
-			name = BSUserCenterViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "BSRootViewController.h"
 
-@interface BSAppDelegate : UIResponder <UIApplicationDelegate, NGTabBarControllerDelegate>
+@interface BSAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 

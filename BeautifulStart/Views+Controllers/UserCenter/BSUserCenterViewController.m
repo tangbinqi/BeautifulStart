@@ -17,12 +17,25 @@
 
 @implementation BSUserCenterViewController
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+//- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+//{
+//    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+//    if (self) {
+//        // Custom initialization
+//        
+//        tableArray = [NSArray arrayWithObjects:
+//                      [NSArray arrayWithObjects:@"个人中心",@"修改密码",@"密码设置",@"修改头像",@"我的提问",@"我的分享", nil],
+//                      [NSArray arrayWithObjects:@"检查更新",@"意见反馈",@"关于我们", nil],
+//                      nil];
+//    }
+//    return self;
+//}
+
+- (id)init
 {
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-        
+    self = [super init];
+    if (self)
+    {
         tableArray = [NSArray arrayWithObjects:
                       [NSArray arrayWithObjects:@"个人中心",@"修改密码",@"密码设置",@"修改头像",@"我的提问",@"我的分享", nil],
                       [NSArray arrayWithObjects:@"检查更新",@"意见反馈",@"关于我们", nil],
@@ -34,6 +47,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 320, 40)];
+    [view setBackgroundColor:[UIColor greenColor]];
+    [self.view addSubview:view];
     tView.backgroundView = nil;
     tView.tableFooterView = [self tableViewFoot];
     // Do any additional setup after loading the view from its nib.

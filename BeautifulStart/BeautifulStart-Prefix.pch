@@ -15,7 +15,6 @@
     #import <Foundation/Foundation.h>
     #import <SystemConfiguration/SystemConfiguration.h>
     #import <MobileCoreServices/MobileCoreServices.h>
-    #import "BSComMacro.h"
     #import "BSComHeader.h"
     #import <iOSShare/iOSShare.h>
 #endif

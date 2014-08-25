@@ -17,7 +17,7 @@
 
 #import "BSComUtil.h"
 
-
+#import "BSComMacro.h"
 
 
 #endif

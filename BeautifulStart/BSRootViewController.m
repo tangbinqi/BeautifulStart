@@ -2,125 +2,80 @@
 //  BSRootViewController.m
 //  BeautifulStart
 //
-//  Created by tangbinqi on 14-3-22.
+//  Created by tangbinqi on 14-7-13.
 //  Copyright (c) 2014年 tangbinqi. All rights reserved.
 //
 
 #import "BSRootViewController.h"
-#import "BSHomeViewController.h"
-#import "BSGoodsViewController.h"
-#import "BSSearchViewController.h"
-#import "BSShareViewController.h"
-#import "BSQuestionListViewController.h"
-#import "BSUserCenterViewController.h"
-
 
 @interface BSRootViewController ()
-
-- (void)setupForInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation;
 
 @end
 
 @implementation BSRootViewController
 
-- (id)initWithDelegate:(id<NGTabBarControllerDelegate>)delegate {
-    self = [super initWithDelegate:delegate];
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+{
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        self.animation = NGTabBarControllerAnimationMoveAndScale;
-        self.view.backgroundColor = [UIColor lightGrayColor];
-        self.tabBar.tintColor = [UIColor colorWithRed:255.f/255.f green:0.f/255.f blue:128.f/255.f alpha:1.f];
-        self.tabBar.itemPadding = 0.f;
-        self.tabBar.scrollEnabled = NO;
-//        self.tabBar.position = NGTabBarPositionBottom;
-        [self setupForInterfaceOrientation:[UIApplication sharedApplication].statusBarOrientation];
-        
-        [self initSubViewControllers];
-        
+        // Custom initialization
     }
     return self;
 }
 
-/**
- *  初始化各个tab的viewController
- */
-- (void)initSubViewControllers
+- (id)init
 {
-    BSHomeViewController *homeVC = [[BSHomeViewController alloc] initWithNibName:@"BSHomeViewController"
-                                                                          bundle:[NSBundle mainBundle]];
-    BSShareViewController *shareVC = [[BSShareViewController alloc] initWithNibName:@"BSShareViewController"
-                                                                             bundle:[NSBundle mainBundle]];
-    BSQuestionListViewController *questionListVC = [[BSQuestionListViewController alloc] initWithNibName:@"BSQuestionListViewController"
-                                                                                                  bundle:[NSBundle mainBundle]];
-    BSGoodsViewController *goosListVC = [[BSGoodsViewController alloc] initWithNibName:@"BSGoodsViewController"
-                                                                                bundle:[NSBundle mainBundle]];
-    BSUserCenterViewController *userCenter = [[BSUserCenterViewController alloc] initWithNibName:@"BSUserCenterViewController"
-                                                                                          bundle:[NSBundle mainBundle]];
-
-    homeVC.ng_tabBarItem = [NGTabBarItem itemWithTitle:@"首页" image:IMG(@"icon_tab_home")];
-    shareVC.ng_tabBarItem = [NGTabBarItem itemWithTitle:@"美妆分享" image:IMG(@"icon_tab_share")];
-    questionListVC.ng_tabBarItem = [NGTabBarItem itemWithTitle:@"美妆疑问" image:IMG(@"icon_tab_question")];
-    goosListVC.ng_tabBarItem = [NGTabBarItem itemWithTitle:@"美妆商品" image:IMG(@"icon_tab_goods")];
-    userCenter.ng_tabBarItem = [NGTabBarItem itemWithTitle:@"个人中心" image:IMG(@"icon_tab_usercenter")];
+    NSMutableArray *itemsArray = [[NSMutableArray alloc] init];
+    NSArray *controllerArray = [NSArray arrayWithObjects:
+                                @"BSHomeViewController",
+                                @"BSShareViewController",
+                                @"BSQuestionListViewController",
+                                @"BSGoodsViewController",
+                                @"BSUserCenterViewController",nil];//类名数组
+    NSArray *titleArray = [NSArray arrayWithObjects:
+                           @"首页",
+                           @"美妆分享",
+                           @"美妆疑问",
+                           @"美妆商品",
+                           @"个人中心",nil];//item标题数组
+    NSArray *normalImageArray = [NSArray arrayWithObjects:
+                                 @"icon_tab_home.png",
+                                 @"icon_tab_share.png",
+                                 @"icon_tab_question.png",
+                                 @"icon_tab_goods.png",
+                                 @"icon_tab_usercenter.png",nil];//item 正常状态下的背景图片
+    NSArray *selectedImageArray = [NSArray arrayWithObjects:
+                                   @"icon_tab_home_hl.png",
+                                   @"icon_tab_share_hl.png",
+                                   @"icon_tab_question_hl.png",
+                                   @"icon_tab_goods_hl.png",
+                                   @"icon_tab_usercenter_hl.png",nil];//item被选中时的图片名称
     
-    
-    NSArray *controllers = [NSArray arrayWithObjects:homeVC, shareVC, questionListVC, goosListVC, userCenter, nil];
-    for (UIViewController *vc in controllers) {
-        vc.ng_tabBarItem.selectedTitleColor = [UIColor yellowColor];
-        vc.ng_tabBarItem.selectedImageTintColor = [UIColor yellowColor];
+    for (int i = 0; i< controllerArray.count; i++) {
+        
+        MALTabBarItemModel *itemModel = [[MALTabBarItemModel alloc] init];
+        itemModel.controllerName = controllerArray[i];
+        itemModel.itemTitle = titleArray[i];
+        itemModel.itemImageName = normalImageArray[i];
+        itemModel.selectedItemImageName = selectedImageArray[i];
+        [itemsArray addObject:itemModel];
     }
-    
-    self.viewControllers = controllers;
-    
 
-}
-
-
-- (void)willRotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation duration:(NSTimeInterval)duration {
-    [super willRotateToInterfaceOrientation:toInterfaceOrientation duration:duration];
-    
-    
-    [self setupForInterfaceOrientation:toInterfaceOrientation];
-}
-
-// 禁止界面旋转
-- (BOOL)shouldAutorotate
-
-{
-    
-    return NO;
-    
-}
-
-
-////////////////////////////////////////////////////////////////////////
-#pragma mark - Private
-////////////////////////////////////////////////////////////////////////
-
-- (void)setupForInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation; {
-    if (UIInterfaceOrientationIsPortrait(interfaceOrientation)) {
-        self.tabBarPosition = NGTabBarPositionBottom;
-        self.tabBar.showsItemHighlight = NO;
-        self.tabBar.layoutStrategy = NGTabBarLayoutStrategyCentered;
-    } else {
-        self.tabBarPosition = NGTabBarPositionLeft;
-        self.tabBar.showsItemHighlight = YES;
-        self.tabBar.layoutStrategy = NGTabBarLayoutStrategyStrungTogether;
+    self = [super initWithItemModels:itemsArray defaultSelectedIndex:0];
+    if (self)
+    {
+        
     }
+    [self setTabBarBgImage:@"tabbar_background_os7@2x.png"];//设置tabBar的背景图片
+    return self;
 }
-
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.navigationController.navigationBarHidden = YES;
     // Do any additional setup after loading the view.
 }
-
--(void)viewWillAppear:(BOOL)animated
-{
-    [super viewWillAppear:animated];
-    self.navigationController.navigationBarHidden = YES;
-}
-
 
 - (void)didReceiveMemoryWarning
 {

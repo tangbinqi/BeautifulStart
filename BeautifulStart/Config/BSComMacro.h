@@ -36,9 +36,7 @@
 
 // 系统版本号
 #pragma mark - 系统的版本号
-#define APP_VERSION         @"21.0.1"
-#define APP_VERSION_BIG     @"21"
-#define APP_VERSION_DISPLAY @"2.2.5"
+#define APP_VERSION         @"0.1.0"
 
 #pragma mark - 发版本的时间
 #define APP_VERSION_TIME    @"0917_1211"
@@ -88,10 +86,16 @@
 
 
 
-#pragma mark - 屏幕的高和宽
+#pragma mark 屏幕的高和宽
 //
-#define screenH   768
-#define screenW   1024
+#define screenH   [UIScreen mainScreen].bounds.size.height
+#define screenW   [UIScreen mainScreen].bounds.size.width
+
+//配置自定义nav的高度
+#define kNavBarHeight (64)
+// 适配ios7之后，自定义导航栏的左右button的tag
+#define kBarLeftButton_Tag    99901
+#define kBarRightButton_Tag   99902
 
 
 #pragma mark - 字体格式

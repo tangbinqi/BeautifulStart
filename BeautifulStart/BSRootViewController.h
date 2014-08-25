@@ -2,12 +2,12 @@
 //  BSRootViewController.h
 //  BeautifulStart
 //
-//  Created by tangbinqi on 14-3-22.
+//  Created by tangbinqi on 14-7-13.
 //  Copyright (c) 2014年 tangbinqi. All rights reserved.
 //
 
-#import "NGTabBarController.h"
+#import "MALTabBarViewController.h"
 
-@interface BSRootViewController : NGTabBarController
+@interface BSRootViewController : MALTabBarViewController
 
 @end
